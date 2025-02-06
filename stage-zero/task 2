@@ -1,0 +1,21 @@
+my_info = {
+        "Name": "Oluwaferanmi Atolagbe ",
+        "Slack Username": "oluwaferanmi",
+        "Email": "oluwaferanmiatolagbe@gmail.com",
+        "Hobby": "Poetry",
+        "Country": "Nigeria",
+        "Discipline": "Pharmacology",
+        "Preferred Programming Language": "Python"
+}
+
+    print(f"Name: {my_info['Name']}")
+    print(f"Slack Username: {member['Slack Username']}")
+    print(f"Email: {member['Email']}")
+    print(f"Hobby: {member['Hobby']}")
+    print(f"Country: {member['Country']}")
+    print(f"Discipline: {member['Discipline']}")
+    print(f"Preferred Programming Language: {member['Preferred Programming Language']}")
+
+
+
+
