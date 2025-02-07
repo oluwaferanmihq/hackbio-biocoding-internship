@@ -1,0 +1,50 @@
+team = [
+    {
+        "Name": "Edeh Abigael",
+        "Slack Username": "@Abby",
+        "Email": "abigaeledeh17@gmail.com",
+        "Hobby": "Crafting and reading",
+        "Country": "Nigeria",
+        "Discipline": "Molecular Nutrition",
+        "Preferred Programming Language": "Python"
+    },
+    {
+        "Name": "Oluwaferanmi Atolagbe",
+        "Slack Username": "@Oluwaferanmi",
+        "Email": "oluwaferanmiatolagbe@gmail.com",
+        "Hobby": "Poetry",
+        "Country": "Nigeria",
+        "Discipline": "Pharmacology",
+        "Preferred Programming Language": "Python"
+    },
+    {
+        "Name": "Inyang Olumide Kayode",
+        "Slack Username": "@Olumide",
+        "Email": "inyangolumide78@gmail.com",
+        "Hobby": "Playing the guitar",
+        "Country": "Nigeria",
+        "Discipline": "Cancer Biology and Drug Discovery",
+        "Preferred Programming Language": "Python"
+    },
+    {
+        "Name": "Prashant Phulpagar",
+        "Slack Username": "@Prashant",
+        "Email": "prashantphulpagar0@gmail.com",
+        "Hobby": "Playing Badminton",
+        "Country": "India",
+        "Discipline": "Genetics and Genomics",
+        "Preferred Programming Language": "Python"
+    },
+]
+
+print("Team Members Information")
+
+for member in team:
+    print(f"Name: {member['Name']}")
+    print(f"Slack Username: {member['Slack Username']}")
+    print(f"Email: {member['Email']}")
+    print(f"Hobby: {member['Hobby']}")
+    print(f"Country: {member['Country']}")
+    print(f"Discipline: {member['Discipline']}")
+    print(f"Preferred Programming Language: {member['Preferred Programming Language']}")
+    print("." * 40)
