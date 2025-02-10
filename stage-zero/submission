@@ -1,4 +1,14 @@
-team = [
+# HackBio Internship - February 2025
+# Team Arginine Python 
+# This team has four members, viz:
+# Abby (GitHub: @AbbyOlawal)
+# Oluwaferanmi (GitHub: @oluwaferanmihq)
+# Olumide (GitHub: @inyang352)
+# Prashant (GitHub: @PrashantPhulpagar)
+# GitHub link to team_arginine_python repository for stage 0
+# https://github.com/oluwaferanmihq/hackbio-biocoding-internship
+
+team_arginine_python = [
     {
         "Name": "Edeh Abigael",
         "Slack Username": "@Abby",
