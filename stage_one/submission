@@ -1,0 +1,28 @@
+# HackBio Internship - February 2025
+# Team Arginine Python 
+
+# Oluwaferanmi (GitHub: @oluwaferanmihq) https://www.linkedin.com/in/oluwaferanmiatolagbe/
+
+# GitHub link to team_arginine_python repository for stage 0
+# https://github.com/oluwaferanmihq/hackbio-biocoding-internship
+import math
+
+def population_maker(x , k = 2, x_mid = 5):
+
+    solution = 1/(1 + math.exp(-k*(x-x_mid)))
+
+    return solution
+
+#print(population_maker(k = 2, x_mid = 5, x = 10))
+
+od_600 = []
+
+for i in range(0,24):
+
+    od_600.append(population_maker(x = i, k = 0.5, x_mid = 10))
+
+print(od_600)
+
+import seaborn as sns
+
+sns.lineplot(x = range(0,24), y = od_600)
